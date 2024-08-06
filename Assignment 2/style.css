@@ -204,8 +204,7 @@ p {
 
 .box {
   background-color: rgb(19, 22, 34);
-  flex: 0 1 20%;
-  padding: 10px 20px;
+  flex: 0 1 22%;
   height: 100%;
   text-align: center;
   padding: 24px;
@@ -227,15 +226,11 @@ p {
 }
 
 .insta {
-  color: rgb(173, 38, 78);
+  color: rgb(228, 107, 51);
 }
 
 .youtube {
   color: rgb(206, 53, 61);
-}
-
-.down {
-  color: red;
 }
 
 .up {
@@ -245,8 +240,8 @@ p {
   font-weight: 600;
 }
 
-.down1 {
-  color: red;
+.down {
+  color: rgb(201, 73, 73);
   font-size: 12px;
   margin-top: 24px;
   font-weight: 600;
@@ -271,9 +266,43 @@ h2 {
   border-top: 4px solid rgb(2, 221, 236);
   color: white;
 }
+
 .box3 {
   border-top: 4px solid rgb(228, 107, 51);
 }
+
 .box4 {
   border-top: 4px solid rgb(194 5 41);
+}
+
+/* overview */
+
+h3 {
+  font-size: 28px;
+  font-weight: 600;
+  word-spacing: 2px;
+  margin: 28px 0;
+}
+
+.overview-box {
+  background-color: rgb(19, 22, 34);
+  flex: 0 1 22%;
+  height: 100%;
+  padding: 24px;
+  margin-bottom: 32px;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+h4 {
+  text-transform: capitalize;
+  color: rgb(184, 180, 180);
+  font-size: 12px;
+}
+
+h5 {
+  font-size: 32px;
+  font-weight: 600;
 }
